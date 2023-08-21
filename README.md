@@ -18,8 +18,11 @@ STEPS :
     <?php
        exec("full/path/to/deploy.sh", $output); 
        echo implode("<br>", $output);
-   ?> 
-   access ur file in browser and hopefully it will show you ur full path if not idk :( search google how to find full path of ur
+   ?>
+   you can also use exec command to clone repo :D
+        git clone https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}
+   access ur file in browser and hopefully it will show you ur full path if not idk :( search google how to find full path of ur website.
+   change branch name :D
 7. access the file in ur browser by https://example.com/git.php?secret=yoursecrethere
 8. if everything is good this should show in URL.
     Deployment successful.

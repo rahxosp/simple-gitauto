@@ -15,10 +15,10 @@ STEPS :
     If you have private repository , u need to setup SSH key or use a Personal Access Token ,  for new guys Personal Access Token is easy.
    How to setup Access Token : Google it , i will leave a article link for example https://rebrand.ly/a5ce25
 5. change paths in the files. remember its full path , if u have exec permission in ur php files use code below in a random file to find ur path
-    <?php
+
        exec("full/path/to/deploy.sh", $output); 
        echo implode("<br>", $output);
-   ?>
+   
    you can also use exec command to clone repo :D
         git clone https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}
    access ur file in browser and hopefully it will show you ur full path if not idk :( search google how to find full path of ur website.

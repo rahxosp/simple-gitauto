@@ -16,7 +16,7 @@ STEPS :
    How to setup Access Token : Google it , i will leave a article link for example https://rebrand.ly/a5ce25
 5. change paths in the files. remember its full path , if u have exec permission in ur php files use code below in a random file to find ur path
 
-       exec("full/path/to/deploy.sh", $output); 
+       exec("pwd", $output); 
        echo implode("<br>", $output);
    
    you can also use exec command to clone repo :D

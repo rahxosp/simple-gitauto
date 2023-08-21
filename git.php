@@ -1,6 +1,6 @@
 <?php
 
-$SECRET_TOKEN = "SoJdgssbnNYCUyY"; // change this to random characters
+$SECRET_TOKEN = "SoJnCUyY"; // change this to random characters
 
 if ($_GET['secret'] !== $SECRET_TOKEN) {
 	die("Access denied: invalid secret token.");
